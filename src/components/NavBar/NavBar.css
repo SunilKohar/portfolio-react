@@ -1,0 +1,58 @@
+.NavBar-container {
+  background-color: rgba(0, 0, 0, 0.052);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.n-left {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+.n-name {
+  margin-left: 70px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.n-right {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.n-list {
+  flex: 10;
+}
+
+.n-list ul {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  margin-right: 4rem;
+}
+.n-list > ul > li:hover {
+  cursor: pointer;
+  color: blue;
+}
+.n-contact {
+  border-radius: 20px;
+  border: none;
+  color: black;
+  height: 30px;
+  align-items: center;
+  width: 100px;
+  margin: 15px;
+  background: rgba(153, 205, 50, 0.829);
+}
+.n-contact:hover {
+  cursor: pointer;
+  background: aquamarine;
+  color: blueviolet;
+  border: none;
+}
